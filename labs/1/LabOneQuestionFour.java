@@ -14,7 +14,7 @@ public class LabOneQuestionFour {
 		double mass = input.nextDouble(); 
 		
 		//Prompt the user for speed: 
-		System.out.println("Please enter a value for C: "); 
+		System.out.println("Please enter a value for C: "); // JA: This is a constant
 		double speed = input.nextDouble(); 
 		
 		// Calculate energy 
