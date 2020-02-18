@@ -16,8 +16,8 @@ public class LabTwoQuestionThree {
 		int Upperlimit = input.nextInt();
 
 
-		int rand = (int)(Math.random()*(Upperlimit - Lowerlimit) + 1); 
-		
+		int rand = (int)(Math.random()*(Upperlimit - Lowerlimit + 1) + Lowerlimit); // JA
+		//JA: It was three random numbers
 		System.out.println("Random Number " + rand); 
 	}
 
