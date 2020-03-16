@@ -23,15 +23,15 @@ public class LabFiveQuestionOne {
 	public static double max(double[] array) {
 	
 
-	double maximum = array[0];
-	
-	for (int i = 0; i < array.length; i++)
-	
-	if (array[i] > maximum)
-	
-	maximum = array[i];
-	
-	return maximum;
+		double maximum = array[0];
+		
+		for (int i = 0; i < array.length; i++)
+		
+			if (array[i] > maximum)
+			
+				maximum = array[i];
+		
+		return maximum;
 	
 	}
 	

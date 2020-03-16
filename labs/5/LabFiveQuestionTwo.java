@@ -36,7 +36,7 @@ public static double deviation(double x[]) {
 		double mean = mean(x);
 		for (int i = 0; i < len; i++)
 			sqrt += (x[i] - mean) * (x[i] - mean);
-		return Math.sqrt(sqrt / len);
+		return Math.sqrt(sqrt / (len - 1)); // JA
 		
 	}	
 }
