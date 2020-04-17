@@ -1,5 +1,5 @@
 package labs;
-
+// JA: Where is the test class?
 class Circle{
     
     //data members
