@@ -1,5 +1,6 @@
 package labs;
 
+// JA: This should extend Circle
 public class Cylinder extends Shape{
 	   double radius ;
 	   double height ;
