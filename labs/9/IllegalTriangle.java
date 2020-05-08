@@ -1,4 +1,4 @@
-package labs;
+//package labs;
 
 public class IllegalTriangle extends Exception { 
 	public IllegalTriangle ()
